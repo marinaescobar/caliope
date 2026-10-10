@@ -147,6 +147,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 @media (max-width:900px){
   .grid,.facts{grid-template-columns:1fr 1fr}
   .split{grid-template-columns:1fr;gap:36px}
+  .split.rev{grid-template-columns:1fr}
   .split.rev>:first-child{order:0}
 }
 @media (max-width:767px){
