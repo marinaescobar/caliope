@@ -90,41 +90,6 @@ Tus proyectos se guardan solo en tu equipo. Talía, el corrector y los sinónimo
 La única parte que se conecta a internet es **Clío**, y **no usa ningún dato introducido en Calíope**: únicamente recibe lo que escribas en su chat.
 Si prefieres no usarla, desmarca **Ajustes › Mostrar a Clío** y su chat se oculta.
 
----
-
-## Para desarrolladores
-
-### Ejecutar desde el código
-
-```bash
-python -m venv venv
-venv\Scripts\activate            # Windows  (macOS/Linux: source venv/bin/activate)
-pip install -r requirements.txt
-python main.py
-```
-
-Python 3.12 o superior. Los datos se guardan en `data/caliope.db` (no se sube al repositorio).
-
-### Compilar
-
-```bash
-pip install -r requirements-build.txt
-python build_app.py              # Windows: dist/Caliope/Caliope.exe + dist/installer/Caliope-Setup-<versión>.exe
-                                 # macOS:   dist/Caliope.app + dist/installer/Caliope-<versión>-macOS-<arq>.dmg
-```
-
-Windows requiere [Inno Setup](https://jrsoftware.org/isinfo.php) para el instalador (`--no-installer` para compilar solo el `.exe`). macOS requiere un Mac con las Xcode Command Line Tools (`xcode-select --install`); PyInstaller no compila para otro sistema, por eso el `.dmg` lo genera GitHub Actions.
-
-### Publicar una versión
-
-1. Sube `VERSION` en `caliope/version.py` (p. ej. `1.5.0`) y cambia los enlaces de descarga de este README a esa versión.
-2. `python build_app.py`
-3. Ejecuta `python tools/make_site.py` para actualizar la versión de la página web (`docs/`).
-3. Crea en GitHub una release con el tag `v1.5.0`, escribe las novedades en la descripción (es lo que verá la gente como registro de cambios) y adjunta `dist/installer/Caliope-Setup-1.9.1.exe`.
-4. **macOS, automático:** al publicar la release se ejecuta el workflow [`.github/workflows/macos.yml`](.github/workflows/macos.yml), que compila en servidores Mac de GitHub y adjunta los dos `.dmg` a esa misma release (unos 10-15 minutos; se sigue en la pestaña *Actions*). Para repetirlo: *Actions › macOS › Run workflow* e indica el tag. El tag debe coincidir con `VERSION`.
-
-Las instalaciones existentes detectarán la release la próxima vez que pulsen «Buscar actualizaciones». El repositorio debe ser público.
-
 ## Licencias de terceros
 
 Ver [`THIRD_PARTY.md`](THIRD_PARTY.md).
