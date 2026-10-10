@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="caliope-version" content="1.9.1">
+<title>Calíope — Invoca a tus musas. Da vida a tus mundos.</title>
+<meta name="description" content="Calíope es una aplicación de escritorio para escritores: manuscrito, escaleta, personajes, mundo, mapas, cronologías y exportación a EPUB, Kindle, DOCX y PDF. Todo en tu ordenador, sin cuentas ni nube.">
+<meta name="theme-color" content="#1b1422" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#EDE6DA" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="Calíope — Invoca a tus musas. Da vida a tus mundos.">
+<meta property="og:description" content="Tu musa para la escritura: manuscrito, mundo, mapas y cronologías, 100 % en tu ordenador.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+<!-- ============================ Hero ============================ -->
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <div class="logo" role="img" aria-label="Calíope"><span class="mark" aria-hidden="true"><!--LOGO--><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect width="100" height="100" fill="#fff"/><path d="M57.00 19.50C41.00 19.50 27.00 30.00 22.50 47.00Z" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round"/><path d="M50.21 19.38C51.03 22.15 48.99 24.60 46.12 24.30C45.30 21.53 47.35 19.07 50.21 19.38Z" fill="#000"/><path d="M50.53 20.82C48.04 22.29 45.16 20.90 44.76 18.04C47.25 16.58 50.13 17.97 50.53 20.82Z" fill="#000"/><path d="M42.95 21.58C44.34 24.11 42.86 26.94 39.99 27.26C38.60 24.73 40.08 21.89 42.95 21.58Z" fill="#000"/><path d="M43.56 22.92C41.44 24.88 38.33 24.14 37.34 21.43C39.45 19.47 42.56 20.22 43.56 22.92Z" fill="#000"/><path d="M36.34 25.26C38.24 27.44 37.40 30.52 34.67 31.44C32.77 29.27 33.61 26.18 36.34 25.26Z" fill="#000"/><path d="M37.23 26.45C35.58 28.81 32.38 28.75 30.83 26.32C32.48 23.95 35.68 24.01 37.23 26.45Z" fill="#000"/><path d="M30.60 30.34C32.92 32.06 32.76 35.25 30.28 36.73C27.96 35.01 28.13 31.81 30.60 30.34Z" fill="#000"/><path d="M31.72 31.31C30.61 33.97 27.47 34.58 25.44 32.54C26.55 29.87 29.69 29.26 31.72 31.31Z" fill="#000"/><path d="M25.94 36.70C28.56 37.90 29.07 41.06 26.95 43.02C24.33 41.82 23.82 38.67 25.94 36.70Z" fill="#000"/><path d="M27.23 37.42C26.70 40.25 23.76 41.51 21.34 39.93C21.87 37.10 24.81 35.84 27.23 37.42Z" fill="#000"/><path d="M52 25.5C38 29 29 41 27 53" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 31C41 35 35 44 34 56" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 64C19 60 25 61 26 66C26 70 21 72 19 69" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 47C49 44.5 51.5 50 47 55" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M54.5 32.5C58 30.5 62 30.5 65.2 32.2" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/><path d="M55.5 37.5C57.5 34.8 62 34.8 64.8 37.2C62 40 57.5 40.2 55.5 37.5Z" fill="#000"/><circle cx="60.4" cy="37.3" r="1.9" fill="#fff"/></mask></defs><path d="M54.00 13.00L55.46 13.35L56.86 13.83L58.17 14.44L59.41 15.16L60.56 16.00L61.63 16.93L62.61 17.95L63.50 19.06L64.30 20.25L65.00 21.50L65.60 22.81L66.09 24.18L66.49 25.59L66.77 27.03L66.94 28.51L67.00 30.00L72.50 50.50L73.19 52.31L72.31 53.69L70.00 54.50L66.50 55.20L68.12 57.40L69.00 59.00L68.36 60.15L67.50 61.00L68.50 62.56L68.00 64.50L66.91 66.06L66.80 68.00L66.85 69.49L66.50 70.94L65.75 72.28L64.59 73.49L63.00 74.50L61.75 75.03L60.52 75.42L59.31 75.70L58.15 75.88L57.04 75.97L56.00 76.00L56.30 77.09L56.64 78.18L57.04 79.27L57.49 80.36L57.98 81.45L58.53 82.55L59.12 83.64L59.77 84.73L60.46 85.82L61.21 86.91L62.00 88.00L27.00 88.00L27.67 86.70L28.33 85.47L29.00 84.30L29.67 83.17L30.33 82.09L31.00 81.04L31.67 80.01L32.33 79.00L33.00 78.00L31.84 77.46L30.70 76.87L29.59 76.23L28.51 75.56L27.47 74.83L26.69 74.25L25.16 74.91L23.39 75.35L21.50 75.50L19.61 75.35L17.84 74.91L16.20 74.20L14.73 73.27L13.47 72.12L12.43 70.79L11.66 69.31L11.17 67.71L11.00 66.00L11.17 64.29L11.66 62.69L12.43 61.21L13.47 59.88L14.73 58.73L16.20 57.80L17.12 57.40L17.04 56.42L17.00 55.00L17.02 53.44L17.10 51.88L17.22 50.34L17.39 48.82L17.60 47.30L17.86 45.80L18.17 44.32L18.52 42.86L18.91 41.42L19.35 39.99L19.83 38.59L20.35 37.22L20.91 35.86L21.51 34.54L22.14 33.24L22.82 31.96L23.53 30.72L24.28 29.51L25.06 28.33L25.88 27.19L26.74 26.08L27.62 25.00L28.54 23.96L29.50 22.96L30.48 22.00L31.49 21.08L32.53 20.21L33.60 19.37L34.70 18.59L35.83 17.84L36.98 17.15L38.16 16.50L39.36 15.91L40.59 15.36L41.84 14.87L43.11 14.43L44.40 14.04L45.72 13.72L47.05 13.45L48.40 13.23L49.78 13.08L51.17 12.99L52.58 12.96L54.00 13.00Z" fill="currentColor" mask="url(#m)"/></svg><!--/LOGO--></span><span class="word">Calíope</span></div>
+      <h1>Invoca a tus musas.<em>Da vida a tus mundos.</em></h1>
+      <p class="lead">Un taller de escritura para tu ordenador: manuscrito, personajes, mapas y cronologías en un solo lugar, y de ahí a tu lector.</p>
+      <div class="badges">
+        <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg>Windows 10 / 11</span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.8zM14.1 5.8c.6-.8 1.1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3z"/></svg>macOS</span>
+        <span class="badge">Gratis · sin cuenta</span>
+      </div>
+      <div class="cta">
+        <a class="btn win" href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg>
+          <span>Descargar para Windows<small>Instalador .exe · v1.9.1</small></span>
+        </a>
+        <a class="btn mac" href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.8zM14.1 5.8c.6-.8 1.1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+          <span>Descargar para Mac<small>.dmg · Apple Silicon · v1.9.1</small></span>
+        </a>
+      </div>
+      <p class="meta">¿Mac con Intel? <a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-x86_64.dmg">Descarga el .dmg Intel</a> · <a href="https://github.com/marinaescobar/caliope/releases/latest">novedades de la <b>1.9.1</b></a></p>
+    </div>
+    <div class="frame"><div class="bar"><i></i><i></i><i></i></div><img src="img/inicio.webp" width="1600" height="1220" alt="Pantalla de inicio de Calíope: mensaje de Talía, métricas del libro, racha de escritura y producción diaria"></div>
+  </div>
+</div>
+
+<!-- ============================ Funciones ============================ -->
+<section id="funciones" class="s-mid">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Todo tu universo narrativo</span>
+      <h2>De la primera idea al último capítulo</h2>
+      <p>Cada parte de tu historia tiene su sitio, y todas hablan entre sí.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M9 8h6M9 12h6"/></svg>
+        <h3>Manuscrito</h3>
+        <p>Partes, capítulos y escenas en un editor limpio. <b>Estados, versiones con comparador</b>, corrector local que revisas cuando quieres e importación desde Word, PDF o texto.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        <h3>Escaleta</h3>
+        <p>Un tablero de tarjetas por actos, partes, capítulos, tramas o personaje (POV). <b>Mover una tarjeta mueve la escena</b> en el manuscrito.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.2-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><path d="M16 4.7a3.5 3.5 0 0 1 0 6.6M18 14.8c1.8.7 3 2.4 3.5 5.2"/></svg>
+        <h3>Personajes, lugares y objetos</h3>
+        <p>Fichas a medida con <b>autocompletado y enlaces cruzados</b>. «Explorar» te deja consultar tu mundo sin salir de la escena.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+        <h3>Mundo narrativo</h3>
+        <p>Universo, mitología, bestiario, historia, sistemas y civilizaciones, con campos pensados para cada tipo de entrada.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5V13M12 13H5v3.5M12 13h7v3.5"/></svg>
+        <h3>Relaciones y dinastías</h3>
+        <p>Un mapa interactivo de vínculos (más de noventa tipos) y <b>árboles genealógicos</b> sin cruces, sincronizados entre sí.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <h3>Cronología</h3>
+        <p>Líneas temporales con <b>doce calendarios históricos</b> o el tuyo: eras, meses, semanas y edades, con imágenes y menciones.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 6 6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg>
+        <h3>Cartografía</h3>
+        <p>Mapas de mundos y planos de ciudades con estilos, rejilla, símbolos y <b>pines que abren la ficha</b> del lugar. Exporta a imagen.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5M3 17.5l9 5 9-5" opacity=".6"/></svg>
+        <h3>Universos y Sagas</h3>
+        <p>Agrupa libros en una saga y <b>comparte personajes, lugares y mundo</b> entre ellos, con el manuscrito de cada uno aparte.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        <h3>Análisis y Modo Ultra Foco</h3>
+        <p>Palabras, legibilidad, diálogo y vocabulario de tu manuscrito, y un modo a pantalla completa con <b>ambientes y máquina de escribir reales</b>.</p>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip">Tema oscuro y claro</span>
+      <span class="chip">Español e inglés</span>
+      <span class="chip">Corrector y sinónimos offline</span>
+      <span class="chip">Windows y macOS</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ Interfaz (visor) ============================ -->
+<section id="interfaz" class="s-side">
+  <div class="wrap">
+    <div class="sec-head c">
+      <span class="eyebrow">La interfaz</span>
+      <h2>Míralo por dentro</h2>
+      <p>Elige una pestaña para ver cada área de Calíope.</p>
+    </div>
+    <div class="viewer">
+      <input type="radio" name="v" id="t1" class="sr" checked>
+      <input type="radio" name="v" id="t2" class="sr">
+      <input type="radio" name="v" id="t3" class="sr">
+      <input type="radio" name="v" id="t4" class="sr">
+      <input type="radio" name="v" id="t5" class="sr">
+      <input type="radio" name="v" id="t6" class="sr">
+      <input type="radio" name="v" id="t7" class="sr">
+      <div class="tabs">
+        <label for="t1">Manuscrito</label><label for="t2">Escaleta</label><label for="t3">Personajes</label><label for="t4">Relaciones</label>
+        <label for="t5">Genealogías</label><label for="t6">Cronología</label><label for="t7">Mapas</label>
+      </div>
+      <div class="panels">
+        <div class="panel p1"><div class="frame"><img src="img/manuscrito.webp" width="1600" height="700" alt="Editor de Calíope con una escena en pantalla, su estado y la barra de herramientas"></div><p>Editor limpio con estados, historial de versiones y corrector bajo demanda.</p></div>
+        <div class="panel p2"><div class="frame"><img src="img/escaleta.webp" width="1600" height="720" alt="Escaleta de Calíope organizada por actos, con tarjetas de escena y su punto de vista"></div><p>La escaleta por actos, con subtramas de color y tarjetas de escena o de capítulo.</p></div>
+        <div class="panel p3"><div class="frame"><img src="img/personajes.webp" width="1600" height="940" alt="Ficha de personaje con enlaces a su dinastía, sus escenas y sus posesiones"></div><p>Fichas enlazadas: del personaje a su dinastía, sus escenas y lo que posee.</p></div>
+        <div class="panel p4"><div class="frame"><img src="img/relaciones.webp" width="1600" height="940" alt="Mapa de relaciones de un personaje con sus vínculos de colores"></div><p>Quién es quién para quién, con vínculos que se adaptan al género de cada ficha.</p></div>
+        <div class="panel p5"><div class="frame"><img src="img/genealogias.webp" width="1600" height="940" alt="Árbol genealógico de la Casa Marwen en estilo elegante"></div><p>Árboles con líneas rectas y sin cruces, en tres estilos.</p></div>
+        <div class="panel p6"><div class="frame"><img src="img/cronologia.webp" width="1600" height="940" alt="Línea temporal de un mundo inventado con un calendario propio y dos edades"></div><p>Líneas temporales con un calendario inventado y edades a tu medida.</p></div>
+        <div class="panel p7"><div class="frame"><img src="img/mapa.webp" width="1600" height="940" alt="Editor de mapas con un continente de fantasía, título y rosa de los vientos"></div><p>Mapas de mundos y ciudades con pines enlazados a tus fichas.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ Imprenta ============================ -->
+<section id="imprenta" class="s-deep">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Imprenta</span>
+      <h2>Del manuscrito al libro, sin salir de Calíope</h2>
+      <p>Compila tu novela con una maquetación cuidada y llévala a tus lectores o a tu e-reader, todo en local.</p>
+      <div class="fmts"><span class="fmt">EPUB 3</span><span class="fmt">AZW3 / MOBI</span><span class="fmt">DOCX</span><span class="fmt">PDF</span></div>
+      <ul class="list">
+        <li><b>Fuentes, sangrías y alineación</b> de títulos a tu gusto.</li>
+        <li><b>Citas y epígrafes</b> en Partes y Capítulos, con posición (antes o después del título) y alineación.</li>
+        <li>Capitulares, numeración «Capítulo IV», separadores y esquinas vectoriales como adornos.</li>
+        <li>Portada, notas de la autoría, índice y, si hay saga, el nombre de la saga.</li>
+      </ul>
+      <p class="note">AZW3 requiere tener Calibre instalado; sin él, Calíope genera un MOBI propio.</p>
+    </div>
+    <div>
+      <div class="kindle" role="img" aria-label="Ilustración de una página de ejemplo con epígrafe, capitular y adorno vistos en un lector Kindle">
+        <div class="screen">
+          <p class="ep">«Quien nombra la ceniza, la hace arder.»<small>— Proverbio de Marwen</small></p>
+          <div class="num">Capítulo II</div>
+          <h3 class="ct">La corona de ceniza</h3>
+          <svg class="orn" viewBox="0 0 78 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" aria-hidden="true"><path d="M2 6h28M48 6h28"/><path d="M39 1.5 43.5 6 39 10.5 34.5 6z" fill="currentColor"/></svg>
+          <p class="t"><span class="dc">E</span>l viento traía el olor a humo desde el valle, y Lía supo, antes de abrir los ojos, que la ciudad ya no era suya. Se incorporó despacio, con la mano sobre la empuñadura, y escuchó cómo las campanas dejaban de repicar una a una.</p>
+          <p class="t">—No te muevas —susurró alguien desde la penumbra—. Todavía no.</p>
+          <div class="foot"><span>La corona de ceniza</span><span>37 %</span></div>
+        </div>
+        <span class="btm">kindle</span>
+      </div>
+      <p class="cap">Ilustración de ejemplo de cómo se vería una página en un Kindle.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ Ultra Foco ============================ -->
+<section id="ultrafoco" class="s-mid">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Modo Ultra Foco</span>
+      <h2>Tú, la página y un poco de lluvia</h2>
+      <p>Pantalla completa, un lienzo estrecho y centrado, y nada más. Una barra aparece solo cuando mueves el ratón: ambiente, teclas, dictado, palabras y tiempo.</p>
+      <ul class="list">
+        <li><b>22 ambientes reales</b>: lluvia en la ventana, tormenta, bosque, arroyo, playa, hoguera, ranas, cafetería, mercadillo bajo la lluvia…</li>
+        <li><b>Máquina de escribir de verdad</b>: dos grabaciones a elegir; cada tecla suena distinta, y Intro lleva su timbre de carro.</li>
+        <li><b>Ocho fondos</b> —cuatro oscuros y cuatro claros— con vista previa que respeta tu fuente, tu interlineado y tu sangría.</li>
+        <li>Eliges los altavoces o auriculares por los que suena. Todo en local, sin conexión.</li>
+      </ul>
+      <p class="note">Sustituye al Modo Foco cuando lo activas en Ajustes. El cambio entre tema claro y oscuro, además, es ahora mucho más rápido.</p>
+    </div>
+    <div class="frame"><div class="bar"><i></i><i></i><i></i></div><img src="img/ultrafoco.webp" width="1600" height="940" alt="Modo Ultra Foco: pantalla completa con el texto centrado, fondo oscuro y la barra flotante con el ambiente, las teclas, el dictado, las palabras y el tiempo" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- ============================ Dictado ============================ -->
+<section id="dictado" class="s-deep">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Sin IA · sin red</span>
+      <h2>Dicta tu novela en voz alta</h2>
+      <p>Pulsa el micrófono del editor y habla: Calíope escribe en el cursor, con mayúsculas, puntuación hablada («coma», «punto y aparte», «abre interrogación») y los nombres de tus personajes bien escritos.</p>
+      <ul class="list">
+        <li>Reconocimiento <b>100 % local</b> con Vosk: tu voz no sale del ordenador.</li>
+        <li>Se activa solo cuando lo pulsas, y se desactiva desde Ajustes.</li>
+        <li>Descarga el modelo una vez: estándar (≈ 40 MB) o de alta fidelidad (≈ 1,4 GB).</li>
+      </ul>
+    </div>
+    <div>
+      <div class="cmds">
+        <div class="cmd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg><q>Calíope deja de escuchar</q><span>pausa el dictado</span></div>
+        <div class="cmd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg><q>Calíope sigue escuchando</q><span>lo reanuda</span></div>
+        <div class="cmd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg><q>Calíope para</q><span>termina el dictado</span></div>
+      </div>
+      <p class="note">También disponible en inglés («Calliope stop listening», «keep listening», «stop»).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ Local primero ============================ -->
+<section id="privacidad" class="s-mid">
+  <div class="wrap">
+    <div class="sec-head c">
+      <span class="eyebrow">Local primero</span>
+      <h2>Tu obra vive en tu ordenador</h2>
+      <p>Sin suscripciones, sin registro y sin nube. Escribes, y lo que escribes se queda donde tú lo guardas.</p>
+    </div>
+    <div class="facts">
+      <div class="card">
+        <h3>Funciona sin conexión</h3>
+        <p>Manuscrito, fichas, mapas, corrector, sinónimos, dictado y exportación son <b>locales</b>. No necesitas internet para escribir.</p>
+      </div>
+      <div class="card">
+        <h3>Sin cuentas ni suscripciones</h3>
+        <p><b>Sin sincronización.</b> Los perfiles son locales: eliges cómo quieres que te llamen y empiezas.</p>
+      </div>
+      <div class="card">
+        <h3>Código a la vista</h3>
+        <p>Calíope se publica en GitHub: puedes ver qué hace, descargar cada versión y seguir su historial de cambios.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ Musas ============================ -->
+<section id="musas" class="s-deep">
+  <div class="wrap">
+    <div class="sec-head c">
+      <span class="eyebrow">Más compañía, si la quieres</span>
+      <h2>¿Y si llamamos a más musas?</h2>
+      <p>Calíope ya está contigo. Si te apetece algo más de compañía, hay dos musas más. Las dos son opcionales y se apagan desde Ajustes.</p>
+    </div>
+    <div class="muses">
+      <article class="muse">
+        <img src="assets/clio.png" width="64" height="64" alt="Retrato de Clío" loading="lazy">
+        <h3>Clío <span class="tag ai">Usa IA</span> <span class="tag">Opcional</span></h3>
+        <div class="role">La musa de la investigación</div>
+        <p>Un chat para dudas factuales: una fecha, una costumbre, el nombre de una pieza de armadura.</p>
+        <p>Es la <b>única parte de Calíope con inteligencia artificial</b> y está <b>aislada de tu proyecto</b>: no lee tu manuscrito, tus fichas ni tu base de datos. Solo recibe lo que le preguntes en su chat, con tu propia clave.</p>
+      </article>
+      <article class="muse">
+        <img src="assets/thalia.png" width="64" height="64" alt="Retrato de Talía" loading="lazy">
+        <h3>Talía <span class="tag noai">No es IA</span> <span class="tag">Opcional</span></h3>
+        <div class="role">La musa de la comedia y de los retos</div>
+        <p>Tu compañera de escritura: metas diarias, rachas, desafíos creativos, Modo Foco y Ultra Foco, insignias y comentarios amables sobre tu historia y tu mundo.</p>
+        <p>Funciona con <b>reglas y algoritmos 100 % locales</b>, sin modelo de IA y sin conectarse a internet.</p>
+      </article>
+    </div>
+    <p class="muses-note">Calíope funciona igual de bien sin ellas.</p>
+  </div>
+</section>
+
+<!-- ============================ Descargar ============================ -->
+<section id="descargar" class="s-mid">
+  <div class="wrap">
+    <div class="sec-head c" style="margin-bottom:0">
+      <span class="eyebrow">Versión 1.9.1</span>
+      <h2>Empieza a escribir hoy</h2>
+      <p>Gratis, sin registro y sin conexión. Elige tu sistema.</p>
+    </div>
+    <div class="cta">
+      <a class="btn win" href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg>
+        <span>Windows<small>Caliope-Setup-1.9.1.exe</small></span>
+      </a>
+      <a class="btn mac" href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.8zM14.1 5.8c.6-.8 1.1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+        <span>Mac · Apple Silicon<small>Caliope-1.9.1-macOS-arm64.dmg</small></span>
+      </a>
+      <a class="btn mac" href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-x86_64.dmg">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.8zM14.1 5.8c.6-.8 1.1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+        <span>Mac · Intel<small>Caliope-1.9.1-macOS-x86_64.dmg</small></span>
+      </a>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>En Windows</h3>
+        <ol>
+          <li>Ejecuta el <code>.exe</code> y sigue el asistente (no necesita permisos de administrador).</li>
+          <li>Si SmartScreen avisa, pulsa <b>Más información › Ejecutar de todas formas</b>: el instalador aún no está firmado.</li>
+        </ol>
+      </div>
+      <div class="step">
+        <h3>En Mac</h3>
+        <ol>
+          <li>Abre el <code>.dmg</code> y arrastra Calíope a <b>Aplicaciones</b>.</li>
+          <li>La primera vez: clic derecho (o Control + clic) › <b>Abrir</b> › <b>Abrir</b>.</li>
+          <li>Si dice que está dañada: <code>xattr -dr com.apple.quarantine /Applications/Caliope.app</code></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Calíope"><span class="mark" role="img" aria-hidden="true"><!--LOGO--><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect width="100" height="100" fill="#fff"/><path d="M57.00 19.50C41.00 19.50 27.00 30.00 22.50 47.00Z" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round"/><path d="M50.21 19.38C51.03 22.15 48.99 24.60 46.12 24.30C45.30 21.53 47.35 19.07 50.21 19.38Z" fill="#000"/><path d="M50.53 20.82C48.04 22.29 45.16 20.90 44.76 18.04C47.25 16.58 50.13 17.97 50.53 20.82Z" fill="#000"/><path d="M42.95 21.58C44.34 24.11 42.86 26.94 39.99 27.26C38.60 24.73 40.08 21.89 42.95 21.58Z" fill="#000"/><path d="M43.56 22.92C41.44 24.88 38.33 24.14 37.34 21.43C39.45 19.47 42.56 20.22 43.56 22.92Z" fill="#000"/><path d="M36.34 25.26C38.24 27.44 37.40 30.52 34.67 31.44C32.77 29.27 33.61 26.18 36.34 25.26Z" fill="#000"/><path d="M37.23 26.45C35.58 28.81 32.38 28.75 30.83 26.32C32.48 23.95 35.68 24.01 37.23 26.45Z" fill="#000"/><path d="M30.60 30.34C32.92 32.06 32.76 35.25 30.28 36.73C27.96 35.01 28.13 31.81 30.60 30.34Z" fill="#000"/><path d="M31.72 31.31C30.61 33.97 27.47 34.58 25.44 32.54C26.55 29.87 29.69 29.26 31.72 31.31Z" fill="#000"/><path d="M25.94 36.70C28.56 37.90 29.07 41.06 26.95 43.02C24.33 41.82 23.82 38.67 25.94 36.70Z" fill="#000"/><path d="M27.23 37.42C26.70 40.25 23.76 41.51 21.34 39.93C21.87 37.10 24.81 35.84 27.23 37.42Z" fill="#000"/><path d="M52 25.5C38 29 29 41 27 53" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 31C41 35 35 44 34 56" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 64C19 60 25 61 26 66C26 70 21 72 19 69" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 47C49 44.5 51.5 50 47 55" fill="none" stroke="#000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M54.5 32.5C58 30.5 62 30.5 65.2 32.2" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"/><path d="M55.5 37.5C57.5 34.8 62 34.8 64.8 37.2C62 40 57.5 40.2 55.5 37.5Z" fill="#000"/><circle cx="60.4" cy="37.3" r="1.9" fill="#fff"/></mask></defs><path d="M54.00 13.00L55.46 13.35L56.86 13.83L58.17 14.44L59.41 15.16L60.56 16.00L61.63 16.93L62.61 17.95L63.50 19.06L64.30 20.25L65.00 21.50L65.60 22.81L66.09 24.18L66.49 25.59L66.77 27.03L66.94 28.51L67.00 30.00L72.50 50.50L73.19 52.31L72.31 53.69L70.00 54.50L66.50 55.20L68.12 57.40L69.00 59.00L68.36 60.15L67.50 61.00L68.50 62.56L68.00 64.50L66.91 66.06L66.80 68.00L66.85 69.49L66.50 70.94L65.75 72.28L64.59 73.49L63.00 74.50L61.75 75.03L60.52 75.42L59.31 75.70L58.15 75.88L57.04 75.97L56.00 76.00L56.30 77.09L56.64 78.18L57.04 79.27L57.49 80.36L57.98 81.45L58.53 82.55L59.12 83.64L59.77 84.73L60.46 85.82L61.21 86.91L62.00 88.00L27.00 88.00L27.67 86.70L28.33 85.47L29.00 84.30L29.67 83.17L30.33 82.09L31.00 81.04L31.67 80.01L32.33 79.00L33.00 78.00L31.84 77.46L30.70 76.87L29.59 76.23L28.51 75.56L27.47 74.83L26.69 74.25L25.16 74.91L23.39 75.35L21.50 75.50L19.61 75.35L17.84 74.91L16.20 74.20L14.73 73.27L13.47 72.12L12.43 70.79L11.66 69.31L11.17 67.71L11.00 66.00L11.17 64.29L11.66 62.69L12.43 61.21L13.47 59.88L14.73 58.73L16.20 57.80L17.12 57.40L17.04 56.42L17.00 55.00L17.02 53.44L17.10 51.88L17.22 50.34L17.39 48.82L17.60 47.30L17.86 45.80L18.17 44.32L18.52 42.86L18.91 41.42L19.35 39.99L19.83 38.59L20.35 37.22L20.91 35.86L21.51 34.54L22.14 33.24L22.82 31.96L23.53 30.72L24.28 29.51L25.06 28.33L25.88 27.19L26.74 26.08L27.62 25.00L28.54 23.96L29.50 22.96L30.48 22.00L31.49 21.08L32.53 20.21L33.60 19.37L34.70 18.59L35.83 17.84L36.98 17.15L38.16 16.50L39.36 15.91L40.59 15.36L41.84 14.87L43.11 14.43L44.40 14.04L45.72 13.72L47.05 13.45L48.40 13.23L49.78 13.08L51.17 12.99L52.58 12.96L54.00 13.00Z" fill="currentColor" mask="url(#m)"/></svg><!--/LOGO--></span>Calíope</a>
+    <div class="links">
+      <a href="https://github.com/marinaescobar/caliope">Código fuente en GitHub</a>
+      <a href="https://github.com/marinaescobar/caliope/releases">Notas de versión (Changelog)</a>
+      <a href="https://github.com/marinaescobar/caliope/blob/main/THIRD_PARTY.md">Licencias de terceros</a>
+      <a href="https://github.com/marinaescobar/caliope/issues">Incidencias</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
