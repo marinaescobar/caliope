@@ -87,6 +87,7 @@ section{padding:80px 0}
 
 /* Imprenta + Kindle */
 .split{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.split.rev{grid-template-columns:1fr 1.1fr}.split.rev>:first-child{order:2}
 .split h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:14px}
 .split > div > p{color:var(--muted);margin:0 0 14px}
 .list{margin:16px 0 0;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
@@ -146,6 +147,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 @media (max-width:900px){
   .grid,.facts{grid-template-columns:1fr 1fr}
   .split{grid-template-columns:1fr;gap:36px}
+  .split.rev>:first-child{order:0}
 }
 @media (max-width:767px){
   .hero{padding:36px 0 48px}
