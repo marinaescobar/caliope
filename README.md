@@ -15,8 +15,6 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 <a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
 <a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
-&nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-x86_64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Intel%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Intel"></a>
 
 <sub>Versión 1.9.1 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
@@ -28,7 +26,6 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 |---|---|---|
 | 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.9.1.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe) |
 | 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.9.1-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg) |
-| 🍎 **Mac con procesador Intel** | `Caliope-1.9.1-macOS-x86_64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-x86_64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -38,7 +35,7 @@ Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). 
 2. La primera vez macOS la bloqueará porque no está firmada por Apple: haz **clic derecho (o Control + clic) sobre Calíope › Abrir › Abrir**.
 3. Si aun así dice que está dañada, ejecuta en la Terminal: `xattr -dr com.apple.quarantine /Applications/Caliope.app`.
 
-¿Qué Mac tengo? Menú  › *Acerca de este Mac*: si pone «Chip Apple M…» elige *Apple Silicon*; si pone «Procesador Intel», elige *Intel*.
+Por ahora Calíope para Mac solo está disponible para Macs con chip Apple (M1 o posterior).
 
 Calíope busca e instala actualizaciones desde **Ajustes › Información de Calíope y actualizaciones** (en Mac descarga el `.dmg` y lo abre para que lo arrastres a Aplicaciones).
 
