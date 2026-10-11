@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-Setup-1.10.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.11.0/Caliope-Setup-1.11.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-1.10.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.11.0/Caliope-1.11.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 1.10.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 1.11.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.10.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-Setup-1.10.0.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.10.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-1.10.0-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.11.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.11.0/Caliope-Setup-1.11.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.11.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.11.0/Caliope-1.11.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -45,6 +45,9 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 
 - **Manuscrito** por partes, capítulos y escenas, con propósito, resumen e ideas en cada nivel, importación de manuscritos (`.docx`, `.pdf`, `.txt`) y un panel de análisis con gráficos y recomendaciones.
 - **Continuidad** (pestaña del Manuscrito, 100 % local y sin IA): cruza tus escenas con tus fichas y cronologías y avisa de apellidos y nombres que cambian o llevan una errata, de rasgos que no casan con la ficha (ojos, cabello, religión, gobierno, clima…), de una prenda o una narración que cambia dentro de la escena y de personajes que aparecen tras su muerte. «Corregir» respeta género y número; «Ignorar…» guarda tu motivo.
+- **Inicio** con tu racha y meta, los avisos de Continuidad sin revisar y los datos de ritmo de la Matriz, y **aviso de versión nueva** al abrir Calíope (pulsarlo descarga e instala la actualización).
+- **Ficha de personaje** con sus familias, escenas, POVs, cronologías y posesiones en desplegables con buscador.
+- **Alineación del texto** (izquierda, centrada, derecha, justificada) en todos los editores.
 - **Estructura**: la **Escaleta** (tablero de tarjetas por actos, partes, capítulos, tramas o personaje) y la **Matriz**, que cruza capítulos, personajes y tramas en un mapa de calor y detecta desapariciones, apariciones repentinas, tramas estancadas, huérfanas e incoherencias de reparto. Un clic en una celda abre el punto exacto del editor.
 - **Corrector** ortográfico, gramatical y de estilo en español, y diccionario de sinónimos, todo sin conexión.
 - **Personajes, relaciones, lugares y mundo**, con autocompletado y enlaces entre ellos.

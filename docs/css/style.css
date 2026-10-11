@@ -193,6 +193,8 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 /* Tarjetas que se explican al pasar el ratón o al pulsarlas (solo CSS; el foco hace de «clic» y funciona en el móvil) */
 .grid .card,.facts .card{position:relative;min-height:250px;overflow:hidden;cursor:pointer;outline:none;-webkit-tap-highlight-color:transparent}
 .facts .card{min-height:210px}
+.grid .card,.facts .card{text-align:center}
+.grid .card .ic{display:block;margin:0 auto 14px}
 .grid .card .ic,.grid .card h3,.facts .card h3{transition:transform .35s ease}
 .grid .card .ic{transform:translateY(54px)}
 .grid .card h3{transform:translateY(54px)}
@@ -200,12 +202,9 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 .grid .card p,.facts .card p{position:absolute;left:24px;right:24px;top:116px;opacity:0;transform:translateY(10px);pointer-events:none;
   transition:opacity .3s ease,transform .3s ease}
 .facts .card p{top:74px}
-.grid .card::after,.facts .card::after{content:"+";position:absolute;right:18px;top:12px;font-size:1.4rem;line-height:1;color:var(--sage-text);
-  opacity:.7;transition:opacity .2s,transform .3s}
 .grid .card:hover .ic,.grid .card:focus .ic,.grid .card:hover h3,.grid .card:focus h3,
 .facts .card:hover h3,.facts .card:focus h3{transform:none}
 .grid .card:hover p,.grid .card:focus p,.facts .card:hover p,.facts .card:focus p{opacity:1;transform:none}
-.grid .card:hover::after,.grid .card:focus::after,.facts .card:hover::after,.facts .card:focus::after{opacity:0;transform:rotate(90deg)}
 .grid .card:focus-visible,.facts .card:focus-visible{border-color:var(--sage)}
 @media (max-width:900px){.grid .card{min-height:230px}}
 /* Lo que parece un botón pero no lo es, no se selecciona */
