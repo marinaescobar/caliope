@@ -221,8 +221,5 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 .grid .card:hover p,.grid .card:focus p,.facts .card:hover p,.facts .card:focus p{opacity:1;transform:none}
 .grid .card:focus-visible,.facts .card:focus-visible{border-color:var(--sage)}
 @media (max-width:900px){.grid .card{min-height:230px}}
-/* Si el texto es más alto que la tarjeta (móvil o columnas estrechas), al abrirla el párrafo entra en el flujo y la tarjeta crece */
-.grid .card:hover,.grid .card:focus,.facts .card:hover,.facts .card:focus{height:auto}
-.grid .card:hover p,.grid .card:focus p,.facts .card:hover p,.facts .card:focus p{position:static;pointer-events:auto}
 /* Lo que parece un botón pero no lo es, no se selecciona */
 .card,.chip,.badge,.fmt,.tag,.cmd,.tabs label,.eyebrow{-webkit-user-select:none;user-select:none}
