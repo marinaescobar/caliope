@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.12.1/Caliope-Setup-1.12.1.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.13.0/Caliope-Setup-1.13.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.12.1/Caliope-1.12.1-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.13.0/Caliope-1.13.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 1.12.1 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 1.13.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.12.1.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.12.1/Caliope-Setup-1.12.1.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.12.1-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.12.1/Caliope-1.12.1-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.13.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.13.0/Caliope-Setup-1.13.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.13.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.13.0/Caliope-1.13.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -44,6 +44,8 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 ## Qué incluye
 
 - **Manuscrito** por partes, capítulos y escenas, con propósito, resumen e ideas en cada nivel, importación de manuscritos (`.docx`, `.pdf`, `.txt`) y un panel de análisis con gráficos y recomendaciones.
+- **Formato de texto** en las escenas: negrita, cursiva, subrayado y tachado (`Ctrl+B`, `Ctrl+I`, `Ctrl+U`, `Ctrl+Mayús+X` o los botones de la barra). Se guarda con la escena y con cada versión, viaja en las copias `.clp` y llega a la exportación (EPUB, Kindle, DOCX y PDF).
+- **Pantalla dividida**: abre al lado de lo que haces otra escena, un capítulo o la ficha de un personaje, un lugar, una entrada del Mundo o un objeto (botón de arriba a la derecha o clic derecho › «Abrir en división de pantalla»). En columnas si hay sitio y en filas si la ventana se estrecha; nunca en el Modo Foco ni en el Ultra Foco.
 - **Continuidad** (pestaña del Manuscrito, 100 % local y sin IA): cruza tus escenas con tus fichas y cronologías y avisa de apellidos y nombres que cambian o llevan una errata, de rasgos que no casan con la ficha (ojos, cabello, religión, gobierno, clima…), de una prenda o una narración que cambia dentro de la escena y de personajes que aparecen tras su muerte. «Corregir» respeta género y número; «Ignorar…» guarda tu motivo.
 - **Inicio** con tu racha y meta, los avisos de Continuidad sin revisar y los datos de ritmo de la Matriz, y **aviso de versión nueva** al abrir Calíope (pulsarlo descarga e instala la actualización).
 - **Ficha de personaje** con sus familias, escenas, POVs, cronologías y posesiones en desplegables con buscador.

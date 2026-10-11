@@ -223,3 +223,44 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 @media (max-width:900px){.grid .card{min-height:230px}}
 /* Lo que parece un botón pero no lo es, no se selecciona */
 .card,.chip,.badge,.fmt,.tag,.cmd,.tabs label,.eyebrow{-webkit-user-select:none;user-select:none}
+
+/* Acordeón «Y todavía más» (solo HTML: <details name="mas"> abre uno y cierra el anterior) */
+.more{max-width:900px;margin:0 auto;display:grid;gap:10px}
+.more details{background:var(--sidebar);border:1px solid var(--border);border-radius:12px;transition:border-color .25s}
+.more details:hover,.more details[open]{border-color:var(--sage)}
+.more summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:14px 20px;min-height:60px;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+.more summary::-webkit-details-marker{display:none}
+.more summary:focus-visible{outline:2px solid var(--sage);outline-offset:-2px;border-radius:12px}
+.more summary .ic{width:28px;height:28px;color:var(--sage-text);flex:none}
+.more summary h3{font-size:1.4rem;white-space:nowrap}
+.more summary .sub{color:var(--muted);font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.more summary::after{content:"";flex:none;margin-left:auto;width:9px;height:9px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg) translate(-2px,-2px);transition:transform .25s}
+.more details[open] summary::after{transform:rotate(-135deg) translate(-2px,-2px)}
+.more .body{padding:6px 22px 24px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.more .body > div > p{color:var(--muted);margin:0 0 12px;font-size:.95rem}
+.more .body .list{margin-top:10px;font-size:.92rem}
+.more .body > div > p.note{margin-top:14px}
+.more .body .frame{box-shadow:none}
+@keyframes unfold{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.more details[open] .body{animation:unfold .35s ease both}
+/* ilustraciones sencillas de las funciones sin captura */
+.splitviz{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border);border-radius:12px;background:var(--field);overflow:hidden;min-height:170px}
+.splitviz .pane{padding:16px 18px;display:grid;align-content:start;gap:9px}
+.splitviz .pane + .pane{border-left:1px solid var(--border)}
+.splitviz b{font-family:var(--serif);font-size:1.15rem;color:var(--sage-text);font-weight:600;margin-bottom:2px}
+.splitviz i{display:block;height:7px;border-radius:4px;background:var(--border);opacity:.7}
+.splitviz i.s{width:62%}
+.sample{background:var(--field);border:1px solid var(--border);border-radius:12px;padding:22px 24px}
+.sample p{margin:0;font-family:var(--serif);font-size:1.3rem;line-height:1.55;color:var(--text)}
+@media (max-width:900px){.more .body{grid-template-columns:1fr}}
+@media (max-width:767px){
+  .more summary{padding:12px 16px;gap:12px}
+  .more summary h3{font-size:1.2rem;white-space:normal}
+  .more summary .sub{display:none}
+  .more .body{padding:4px 16px 20px}
+  .splitviz{grid-template-columns:1fr;}
+  .splitviz .pane + .pane{border-left:0;border-top:1px solid var(--border)}
+}
+@media (prefers-color-scheme:light){.more details{background:var(--card)}}
+@media (prefers-reduced-motion:reduce){.more details[open] .body{animation:none}}
+.more summary,.more .sample,.more .splitviz{-webkit-user-select:none;user-select:none}
