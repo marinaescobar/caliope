@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-Setup-1.10.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-1.10.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 1.9.1 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 1.10.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.9.1.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-Setup-1.9.1.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.9.1-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.9.1/Caliope-1.9.1-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.10.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-Setup-1.10.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.10.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.10.0/Caliope-1.10.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -44,6 +44,8 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 ## Qué incluye
 
 - **Manuscrito** por partes, capítulos y escenas, con propósito, resumen e ideas en cada nivel, importación de manuscritos (`.docx`, `.pdf`, `.txt`) y un panel de análisis con gráficos y recomendaciones.
+- **Continuidad** (pestaña del Manuscrito, 100 % local y sin IA): cruza tus escenas con tus fichas y cronologías y avisa de apellidos y nombres que cambian o llevan una errata, de rasgos que no casan con la ficha (ojos, cabello, religión, gobierno, clima…), de una prenda o una narración que cambia dentro de la escena y de personajes que aparecen tras su muerte. «Corregir» respeta género y número; «Ignorar…» guarda tu motivo.
+- **Estructura**: la **Escaleta** (tablero de tarjetas por actos, partes, capítulos, tramas o personaje) y la **Matriz**, que cruza capítulos, personajes y tramas en un mapa de calor y detecta desapariciones, apariciones repentinas, tramas estancadas, huérfanas e incoherencias de reparto. Un clic en una celda abre el punto exacto del editor.
 - **Corrector** ortográfico, gramatical y de estilo en español, y diccionario de sinónimos, todo sin conexión.
 - **Personajes, relaciones, lugares y mundo**, con autocompletado y enlaces entre ellos.
 - **Cartografía**: mapas de fantasía y planos de ciudad.
@@ -86,6 +88,8 @@ Es la única que sale de tu ordenador, y solo envía lo que escribes en su chat;
 Tus proyectos se guardan solo en tu equipo. Talía, el corrector y los sinónimos funcionan **sin conexión y sin IA**: ningún dato de tu proyecto sale de tu ordenador.
 La única parte que se conecta a internet es **Clío**, y **no usa ningún dato introducido en Calíope**: únicamente recibe lo que escribas en su chat.
 Si prefieres no usarla, desmarca **Ajustes › Mostrar a Clío** y su chat se oculta.
+
+---
 
 ## Licencias de terceros
 
