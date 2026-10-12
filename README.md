@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.14.2/Caliope-Setup-1.14.2.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.0.0/Caliope-Setup-2.0.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v1.14.2/Caliope-1.14.2-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.0.0/Caliope-2.0.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 1.14.2 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 2.0.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-1.14.2.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.14.2/Caliope-Setup-1.14.2.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-1.14.2-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v1.14.2/Caliope-1.14.2-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.0.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.0.0/Caliope-Setup-2.0.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.0.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.0.0/Caliope-2.0.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -45,7 +45,7 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 
 - **Manuscrito** por partes, capítulos y escenas, con propósito, resumen e ideas en cada nivel, importación de manuscritos (`.docx`, `.pdf`, `.txt`) y un panel de análisis con gráficos y recomendaciones.
 - **Formato de texto** en las escenas: negrita, cursiva, subrayado y tachado (`Ctrl+B`, `Ctrl+I`, `Ctrl+U`, `Ctrl+Mayús+X` o los botones de la barra). Se guarda con la escena y con cada versión, viaja en las copias `.clp` y llega a la exportación (EPUB, Kindle, DOCX y PDF).
-- **Pantalla dividida**: abre al lado de lo que haces otra escena, un capítulo o la ficha de un personaje, un lugar, una entrada del Mundo o un objeto (botón de arriba a la derecha o clic derecho › «Abrir en división de pantalla»). En columnas si hay sitio y en filas si la ventana se estrecha; nunca en el Modo Foco ni en el Ultra Foco.
+- **Pantalla dividida**: abre al lado de lo que haces cualquier otra sección de Calíope, o una escena, un capítulo o una ficha (botón de arriba a la derecha o clic derecho › «Abrir en división de pantalla»). En columnas si hay sitio y en filas si la ventana se estrecha; nunca en el Modo Foco ni en el Ultra Foco.
 - **Continuidad** (pestaña del Manuscrito, 100 % local y sin IA): cruza tus escenas con tus fichas y cronologías y avisa de apellidos y nombres que cambian o llevan una errata, de rasgos que no casan con la ficha (ojos, cabello, religión, gobierno, clima…), de una prenda o una narración que cambia dentro de la escena y de personajes que aparecen tras su muerte. «Corregir» respeta género y número; «Ignorar…» guarda tu motivo.
 - **Inicio** con tu racha y meta, los avisos de Continuidad sin revisar y los datos de ritmo de la Matriz, y **aviso de versión nueva** al abrir Calíope (pulsarlo descarga e instala la actualización).
 - **Ficha de personaje** con sus familias, escenas, POVs, cronologías y posesiones en desplegables con buscador.
@@ -57,7 +57,8 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 - **Objetos y artefactos**: armas y armaduras, reliquias, vestimenta, vehículos, documentos y herramientas, con ficha por categoría, ilustración, portador y ubicación enlazados a tus personajes y lugares (cada personaje tiene su inventario y cada lugar, sus objetos presentes).
 - **Cronología**: líneas temporales con eventos (fechas, imágenes, descripción), Edades como «Edad Media» con su color, y **calendarios** incluidos (gregoriano, juliano, chino, hebreo, islámico…) o creados por ti, con sus meses, su semana y su origen. La fecha se escribe (`2025-05-10`) o se elige en un calendario emergente construido con la estructura del calendario.
 - **Retos de Talía**: meta diaria de palabras, racha de días, desafíos creativos y Modo Foco con temporizador y avisos discretos de Talía que te acompañan mientras escribes (saludo diario, metas, rachas, retos, insignias y fichas completadas) y, con la aplicación abierta, comenta cada media hora tu historia y tu Mundo con preguntas, curiosidades y consejos. **Talía no es una IA** ([cómo funciona](#talía-no-es-una-ia)): todo ocurre en tu equipo y se ajusta o se desactiva en Ajustes.
-- **Clío**, una musa de la investigación para dudas factuales. Es la única parte de Calíope que usa inteligencia artificial.
+- **Clío**, la musa de la investigación, con dos modos que cambias con un clic. **Local** (por defecto): no es una IA; busca en tus fichas y escenas para recordarte cualquier dato de tu historia, sin que nada salga de tu equipo. **IA**: para dudas factuales (historia, ciencia, geografía…); es la única parte de Calíope que usa inteligencia artificial y no ve tu proyecto.
+- **Nueva estética** (2.0): menú y submenú en islas flotantes, tarjetas redondeadas sin bordes y una sola estética en Escaleta, Genealogías y Cronología.
 - **Modo Ultra Foco** (opcional, en Ajustes): sustituye al Modo Foco con una pantalla completa de lienzo estrecho, **22 ambientes reales** (lluvia, bosque, agua, fuego, noche, cafeterías…), dos grabaciones de **máquina de escribir** a elegir, ocho fondos con vista previa y selección de la salida de audio. Todo en local; créditos de los sonidos en [`THIRD_PARTY.md`](THIRD_PARTY.md).
 - Tema oscuro y claro, e interlineado, tipo de letra y sangría a tu gusto.
 
@@ -85,15 +86,16 @@ diccionarios que funcionan sin conexión.
 
 **Cómo se ajusta.** En **Ajustes › Módulo de Retos de Talía** puedes desactivarla por completo, silenciar sus avisos o elegir cada cuánto comenta tu historia.
 
-**¿Y Clío?** Clío, la musa de la investigación, **sí usa inteligencia artificial** (un modelo de Google Gemini al que le haces preguntas con tu propia clave).
-Es la única que sale de tu ordenador, y solo envía lo que escribes en su chat; ver [Privacidad](#privacidad).
+**¿Y Clío?** Clío, la musa de la investigación, tiene dos modos. En **Local** (con el que arranca siempre) tampoco es una IA: busca en tus fichas
+y escenas, en tu equipo. En modo **IA** **sí usa inteligencia artificial** (un modelo de Google Gemini al que le haces preguntas con tu propia clave):
+es lo único que sale de tu ordenador, y solo envía lo que escribes en su chat; ver [Privacidad](#privacidad).
 
 ## Privacidad
 
 Tus proyectos se guardan solo en tu equipo. Talía, el corrector y los sinónimos funcionan **sin conexión y sin IA**: ningún dato de tu proyecto sale de tu ordenador.
-La única parte que se conecta a internet es **Clío**, y **no usa ningún dato introducido en Calíope**: únicamente recibe lo que escribas en su chat.
+La única parte que se conecta a internet es **Clío en su modo IA**, y entonces **no usa ningún dato introducido en Calíope**: únicamente recibe lo que escribas en su chat
+(al cambiar de modo la conversación se borra, así que nada de lo hablado en Local llega a la IA). En modo **Local**, Clío sí consulta tu proyecto, pero sin IA y sin salir de tu equipo.
 Si prefieres no usarla, desmarca **Ajustes › Mostrar a Clío** y su chat se oculta.
-
 
 ## Licencias de terceros
 
