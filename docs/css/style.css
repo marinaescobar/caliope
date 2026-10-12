@@ -267,8 +267,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:8px 22px}
 
 /* ===== Estética Bento (2.0): islas redondeadas sin bordes, botones píldora, un solo brillo de fondo y barras finas moradas ===== */
 html{scrollbar-width:thin;scrollbar-color:var(--accent) transparent}
-.hero{background:radial-gradient(ellipse 55% 70% at 100% 100%,color-mix(in srgb,var(--sage) 20%,transparent) 0%,transparent 70%),
-  radial-gradient(ellipse 70% 90% at 12% 0%,color-mix(in srgb,var(--accent) 26%,var(--deep)) 0%,var(--deep) 62%)}
+.hero{background:radial-gradient(ellipse 70% 90% at 12% 0%,color-mix(in srgb,var(--accent) 26%,var(--deep)) 0%,var(--deep) 62%)}
 .btn{border-radius:999px;padding:12px 24px}
 .frame{border-radius:22px;border-color:transparent}
 .frame .bar{border-bottom-color:transparent}
@@ -302,19 +301,14 @@ html{scrollbar-width:thin;scrollbar-color:var(--accent) transparent}
 }
 @media (max-width:767px){.tabs{border-radius:20px;justify-content:center}}
 
-/* El verde salvia de Calíope, con más presencia: iconos en ficha salvia, una franja entera y detalles */
+/* El verde salvia de Calíope, con más presencia en iconos y detalles (nunca como fondo de una sección: a la autora no le gusta) */
 .card .ic,.more summary .ic{background:var(--sage);color:var(--on-sage);border-radius:9px;box-shadow:0 0 0 8px var(--sage)}
 .more summary .ic{margin:0 8px}
 .more summary{gap:18px}
 .cmd svg{color:var(--on-sage);background:var(--sage);box-shadow:0 0 0 6px var(--sage);animation:none;margin:0 6px}
 .chip{color:var(--sage-text)}
 .muse .role{font-weight:600}
-#privacidad{background:var(--sage)}
-#privacidad .eyebrow,#privacidad .sec-head h2{color:var(--on-sage)}
-#privacidad .sec-head p{color:color-mix(in srgb,var(--on-sage) 82%,var(--sage))}
-#privacidad .card{background:var(--deep)}
-#privacidad .card h3{color:var(--sage-text)}
-#privacidad .card:hover,#privacidad .card:focus-visible{border-color:var(--on-sage)}
+.facts .card h3{color:var(--sage-text)}
 #descargar .sec-head h2{color:var(--sage-text)}
 .step h3{color:var(--sage-text)}
 footer{border-top:3px solid var(--sage)}
