@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.2.0/Caliope-Setup-2.2.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.3.0/Caliope-Setup-2.3.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.2.0/Caliope-2.2.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.3.0/Caliope-2.3.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 2.2.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 2.3.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.2.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.2.0/Caliope-Setup-2.2.0.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.2.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.2.0/Caliope-2.2.0-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.3.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.3.0/Caliope-Setup-2.3.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.3.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.3.0/Caliope-2.3.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -96,6 +96,8 @@ Tus proyectos se guardan solo en tu equipo. Talía, el corrector y los sinónimo
 La única parte que se conecta a internet es **Clío en su modo IA**, y entonces **no usa ningún dato introducido en Calíope**: únicamente recibe lo que escribas en su chat
 (al cambiar de modo la conversación se borra, así que nada de lo hablado en Local llega a la IA). En modo **Local**, Clío sí consulta tu proyecto, pero sin IA y sin salir de tu equipo.
 Si prefieres no usarla, desmarca **Ajustes › Mostrar a Clío** y su chat se oculta.
+
+---
 
 ## Licencias de terceros
 

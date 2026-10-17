@@ -24,6 +24,9 @@ según el idioma elegido.
 ## Traducciones de Qt (`caliope/resources/locales/qtbase_es.qm`)
 Catálogo de PySide6/Qt (LGPL 3) copiado de la instalación de PySide6: traduce los menús nativos (deshacer, copiar, pegar…).
 
+## Tipografía Literata (`caliope/resources/fonts/`)
+Literata (versión variable, redonda y cursiva) de [The Literata Project Authors](https://github.com/googlefonts/literata), obtenida de [Google Fonts](https://github.com/google/fonts/tree/main/ofl/literata) bajo la [SIL Open Font License 1.1](https://openfontlicense.org/) (texto completo en `Literata-OFL.txt`). Calíope la usa para títulos, cifras, fragmentos y la prosa del editor.
+
 ## Sonidos del Modo Ultra Foco (`assets/sounds/`)
 **Ambientes** (`ambient_*.wav`): bucles de unos 24 s recortados de grabaciones reales de [Wikimedia Commons](https://commons.wikimedia.org/)
 (mono, 22,05 kHz; se unen final y principio con `tools/make_ambient_samples.py`). Los de dominio público no exigen atribución; los

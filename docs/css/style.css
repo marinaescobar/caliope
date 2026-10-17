@@ -8,7 +8,7 @@
 }
 :root{color-scheme:dark light}
 @media (prefers-color-scheme:light){
-  :root{--deep:#EDE6DA;--bg:#F4EFE6;--sidebar:#EAE3D8;--card:#FBF8F2;--field:#FFFDF9;--border:#C9C2C8;
+  :root{--deep:#EDE6DA;--bg:#EFE9DD;--sidebar:#EAE3D8;--card:#F7F2E9;--field:#FFFDF9;--border:#C9C2C8;
     --text:#2E2633;--muted:#6A6070;--accent:#8267C2;--accent-hover:#7458B6;--accent-text:#6F55AE;
     --sage:#A8B89F;--sage-hover:#97A98D;--sage-text:#5E7254;--sage-soft:#EAEBE1}
   .frame{box-shadow:0 18px 44px rgba(46,38,51,.2)}
