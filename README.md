@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.4.0/Caliope-Setup-2.4.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.5.0/Caliope-Setup-2.5.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.4.0/Caliope-2.4.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.5.0/Caliope-2.5.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 2.4.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 2.5.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.4.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.4.0/Caliope-Setup-2.4.0.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.4.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.4.0/Caliope-2.4.0-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.5.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.5.0/Caliope-Setup-2.5.0.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.5.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.5.0/Caliope-2.5.0-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
@@ -43,6 +43,7 @@ Calíope busca e instala actualizaciones desde **Ajustes › Información de Cal
 
 ## Qué incluye
 
+- **Escritura** (nombre provisional): todo el manuscrito de corrido en un solo documento, con índice, la barra del editor, zoom, páginas y palabras. Lo que escribes se guarda en la escena que toca y se ve en Manuscrito (y al revés). La estructura (partes, capítulos y escenas) se marca dentro del propio texto: se detecta al importar un archivo y se corrige con el menú contextual o Ctrl+Alt+1, 2 y 3.
 - **Manuscrito** por partes, capítulos y escenas, con propósito, resumen e ideas en cada nivel, importación de manuscritos completos, partes, capítulos o escenas (`.docx`, `.pdf`, `.txt`) con el botón «Importar», escenas opcionales (sin ellas cada capítulo es un solo texto) y un panel de análisis con gráficos y recomendaciones.
 - **Formato de texto** en las escenas: negrita, cursiva, subrayado y tachado (`Ctrl+B`, `Ctrl+I`, `Ctrl+U`, `Ctrl+Mayús+X` o los botones de la barra). Se guarda con la escena y con cada versión, viaja en las copias `.clp` y llega a la exportación (EPUB, Kindle, DOCX y PDF).
 - **Pantalla dividida**: abre al lado de lo que haces cualquier otra sección de Calíope, o una escena, un capítulo o una ficha (botón de arriba a la derecha o clic derecho › «Abrir en división de pantalla»). En columnas si hay sitio y en filas si la ventana se estrecha; nunca en el Modo Foco ni en el Ultra Foco.
