@@ -11,6 +11,10 @@ Proceden del proyecto [LibreOffice/dictionaries](https://github.com/LibreOffice/
 Se distribuyen sin modificar, junto con sus `README_*.txt` y `LICENSE.md` originales.
 Se usan solo como datos: Calíope los lee en tiempo de ejecución y no enlaza código de ellos.
 
+`extra_words.txt`: lista propia de Calíope (palabras que recoge la RAE y el diccionario no trae); sin terceros.
+Se evaluaron alternativas con licencia solo de atribución (Spanish WordNet del MCR 3.0, CC BY 3.0; Open English WordNet 2024, CC BY 4.0) y no
+mejoraban a lo anterior: ver `dev-docs/revision-textos.md`.
+
 ## Diccionario en inglés británico (`caliope/resources/dictionaries/en/`)
 `en_GB.aff`, `en_GB.dic`: corrector Hunspell **en_GB-ise** (SCOWL, Kevin Atkinson y colaboradores; paquete de
 [wooorm/dictionaries](https://github.com/wooorm/dictionaries)). Licencia permisiva tipo MIT/BSD con los avisos de SCOWL, Ispell y
