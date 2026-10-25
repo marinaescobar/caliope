@@ -12,11 +12,11 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 ## ⬇️ Descargar
 
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.8.0/Caliope-Setup-2.8.0.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.8.1/Caliope-Setup-2.8.1.exe"><img src="https://img.shields.io/badge/Descargar%20para-Windows%20(.exe)-6C4AB6?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar para Windows"></a>
 &nbsp;
-<a href="https://github.com/marinaescobar/caliope/releases/download/v2.8.0/Caliope-2.8.0-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
+<a href="https://github.com/marinaescobar/caliope/releases/download/v2.8.1/Caliope-2.8.1-macOS-arm64.dmg"><img src="https://img.shields.io/badge/Descargar%20para-Mac%20Apple%20Silicon%20(.dmg)-A8B89F?style=for-the-badge&logo=apple&logoColor=1F2820&labelColor=A8B89F&color=A8B89F" alt="Descargar para Mac con Apple Silicon"></a>
 
-<sub>Versión 2.8.0 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
+<sub>Versión 2.8.1 · [Página web](https://marinaescobar.github.io/caliope/) · [Todas las versiones y novedades](https://github.com/marinaescobar/caliope/releases)</sub>
 
 </div>
 
@@ -24,8 +24,8 @@ Aplicación de escritorio para escritores: organiza tu novela en partes, capítu
 
 | Tu equipo | Archivo | Enlace directo |
 |---|---|---|
-| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.8.0.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.8.0/Caliope-Setup-2.8.0.exe) |
-| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.8.0-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.8.0/Caliope-2.8.0-macOS-arm64.dmg) |
+| 🪟 **Windows** 10 / 11 | `Caliope-Setup-2.8.1.exe` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.8.1/Caliope-Setup-2.8.1.exe) |
+| 🍎 **Mac con chip Apple** (M1, M2, M3, M4…) | `Caliope-2.8.1-macOS-arm64.dmg` | [Descargar](https://github.com/marinaescobar/caliope/releases/download/v2.8.1/Caliope-2.8.1-macOS-arm64.dmg) |
 
 ### Instalar en Windows
 Ejecuta el `.exe` y sigue el asistente (no necesita permisos de administrador). Si Windows SmartScreen avisa, pulsa **Más información › Ejecutar de todas formas**: el instalador aún no está firmado.
